@@ -1,0 +1,26 @@
+* {
+    font-family: "Arial";
+    font-weight: 400;
+    position: relative;
+}
+
+header {
+    background-color: rgb(0, 111, 199);
+    color: rgb(250, 254, 255);
+    padding: 8px;
+}
+
+header > h1 {
+    font-size: 40px;
+}
+
+header > a {
+    color: rgb(250, 254, 255);
+    padding-right: 10px;
+
+}
+
+#support {
+    background-color: rgb(243, 243, 243);
+    padding: 8px;
+}
