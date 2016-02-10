@@ -1,8 +1,37 @@
+
+* {
+    font-family: "Helvetica", "Arial", sans-serif;
+    font-weight: 100;
+}
+
+#site-name {
+    font-style: italic;
+    font-size: 200%;
+    text-align: center;
+}
+
 img {
-    width: 20%;
+    width: 30%;
     height: 20%; 
     border-radius: 10px;
+    float: right;
+    margin-right: 50px;
 }
-* {
-    font-family: Helvetica
+
+table {
+    margin: auto;
+    
+}
+
+.assignments {
+    border: 2px double #555;
+    padding: 5px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bolder;
+    color: #252b3b;
 }
