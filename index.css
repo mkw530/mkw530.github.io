@@ -36,7 +36,7 @@ a {
     color: #252b3b;
 }
 
-a:visited {
-    color: darkslategray;
-    font-style: italic;
+a:hover {
+    color: rgb(72, 119, 239);
+    
 }
