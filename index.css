@@ -35,3 +35,8 @@ a {
     font-weight: bolder;
     color: #252b3b;
 }
+
+a:visited {
+    color: darkslategray;
+    font-style: italic;
+}
