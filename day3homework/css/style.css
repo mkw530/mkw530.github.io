@@ -17,11 +17,9 @@ header > h1 {
 header > a {
     color: rgb(250, 254, 255);
     padding-right: 10px;
-
 }
 
 #support {
     background-color: rgb(243, 243, 243);
     padding: 8px;
 }
-
