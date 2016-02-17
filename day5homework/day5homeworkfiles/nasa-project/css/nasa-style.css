@@ -1,0 +1,50 @@
+* {
+    font-family: sans-serif; 
+}
+html {
+    width: 850px;
+    height: 800px;
+    margin: auto;
+
+}
+.top {
+    background-image: url("../img/nasa-background.jpg");
+    width: 850px;
+    height: 450px;
+    margin-top: none;
+   
+}
+.top h1 {
+color: white;
+font-size: 80px;
+font-weight: bold;
+padding-left: 325px;
+padding-top: 190px;
+}
+
+.bottom {
+background-color: #e6e6e6;
+width: 850px;
+height: 324px;
+margin-top: 20px;
+}
+
+section {
+    font-size: 10px;
+}
+
+section h2 {
+    font-weight: bold;
+}
+
+#social {
+    float:left;
+}
+
+#office {
+    float: left;
+}
+
+#contact {
+    float: left;
+}
