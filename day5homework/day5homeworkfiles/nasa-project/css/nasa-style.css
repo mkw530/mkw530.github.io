@@ -1,38 +1,38 @@
 * {
     font-family: sans-serif;
 }
+
 html {
     width: 850px;
     height: 800px;
     margin: auto;
-
 }
+
 .top {
     background-image: url("../img/nasa-background.jpg");
     width: 850px;
     height: 450px;
     margin-top: none;
-   
 }
+
 .top h1 {
-color: white;
-font-size: 80px;
-font-weight: bold;
-padding-left: 325px;
-padding-top: 190px;
+    color: white;
+    font-size: 80px;
+    font-weight: bold;
+    padding-left: 325px;
+    padding-top: 190px;
 }
 
 .bottom {
-background-color: #e6e6e6;
-width: 850px;
-height: 324px;
-margin-top: 20px;
+    background-color: #e6e6e6;
+    width: 850px;
+    height: 324px;
+    margin-top: 20px;
 }
 
 section {
     font-size: 13px;
     width: 270px;
-    
 }
 
 section h2 {
@@ -42,9 +42,8 @@ section h2 {
 }
 
 #social {
-    float:left;
+    float: left;
     margin-right: 20px;
-
 }
 
 .media {
@@ -57,7 +56,6 @@ section h2 {
     margin-right: 10px;
 }
 
-
 .address {
     line-height: 8px;
 }
@@ -65,21 +63,20 @@ section h2 {
 #contact {
     float: left;
     margin-left: 0;
-
 }
-#name-field{
+
+#name-field {
     height: 20px;
     width: 200px;
     margin-bottom: 10px;
 }
 
-#message-field{
-    height:50px;
+#message-field {
+    height: 50px;
     width: 200px;
-    
 }
 
-#send-button{
+#send-button {
     background-color: #4c4c4c;
     color: white;
     width: 80px;
