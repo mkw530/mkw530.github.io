@@ -30,15 +30,18 @@ margin-top: 20px;
 }
 
 section {
-    font-size: 10px;
+    font-size: 15px;
+    width: 283px;
 }
 
 section h2 {
     font-weight: bold;
+    padding-bottom: 40px;
 }
 
 #social {
     float:left;
+
 }
 
 #office {
@@ -47,4 +50,5 @@ section h2 {
 
 #contact {
     float: left;
+
 }
