@@ -69,11 +69,13 @@ section h2 {
     height: 20px;
     width: 200px;
     margin-bottom: 10px;
+    border: none;
 }
 
 #message-field {
     height: 50px;
     width: 200px;
+    border: none;
 }
 
 #send-button {
