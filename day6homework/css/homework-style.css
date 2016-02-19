@@ -40,16 +40,37 @@ section {
 
 aside {
     width: 638px;
-    height: 150px;
+    height: 151px;
     float: right;
     background-color: #f2f2f2;
 }
 
 aside img {
     width:37%;
+    margin: 16px;
     
 }
 
+aside h2, aside p {
+width: 100px;
+    
+}
+
+aside p {
+    font-weight: lighter;
+}
+
+#laptop {
+    margin-bottom: 30px;
+}
+
+#desk {
+    margin-bottom: 30px;
+}
+
+#window {
+    
+}
 
 li:before
 {
