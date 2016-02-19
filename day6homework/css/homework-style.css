@@ -49,8 +49,8 @@ aside {
 }
 
 aside img {
-    width:37%;
-    padding: 16px;
+    width:35%;
+    padding: 17px;
     float: left;
     
 }
@@ -89,6 +89,8 @@ footer {
     clear: both;
     border-top: 1px solid #f2f2f2;
     border-bottom: 1px solid #f2f2f2;
+    line-height: 30px;
+    
 }
 
 li:before
@@ -105,18 +107,37 @@ ul
    text-indent: 2px;
    list-style: none;
    list-style-position: outside;
+margin-top: 0;
+    
 }
 
+#profession h3, ul, #features h3, ul{
+ border-right: 1px solid #f2f2f2;
+}
 
+h3 {
+    margin-bottom: 0;
+    
+}
 
 #profession {
     float: left;
+    margin-left: 52px;
+    width: 380px;
 }
 
 #features {
     float: left;
+    width: 380px;
+    padding-left: 52px;
 }
 
 #pricing {
-    float: left;
+    float: right;
+    width: 380px;
+    padding-right: 73px;
+}
+
+#pricing a {
+    float: right;
 }
