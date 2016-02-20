@@ -4,14 +4,11 @@
 
 }
 
-html {
-    padding-bottom: 10px;
-}
-
 body {
     width: 1366px;
     margin:auto;
     height: 920px;
+    padding: 20px;
 }
 
 a {
