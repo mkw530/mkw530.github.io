@@ -1,8 +1,5 @@
-* {
-    font-family: sans-serif;
-}
-
 html {
+    font-family: sans-serif;
     width: 850px;
     height: 800px;
     margin: auto;
