@@ -1,0 +1,48 @@
+html {
+    margin: 0;
+}
+.small-box {
+width: 300px;
+padding: 40px;
+}
+.small-box h2 {
+    color: white;
+    text-transform: uppercase;
+}
+.small-box p {
+    color: #abc656;
+}
+#grow {
+    background: url('../img/featured-image-3.jpg');
+    background-repeat: no-repeat;
+}
+#plant {
+    background: url('../img/featured-image-4.jpg');
+    background-repeat: no-repeat;
+}
+#land {
+    background: url(../img/featured-image-5.jpg);
+    background-repeat: no-repeat;
+    width: 600px;
+    padding: 50px;
+    float: left;
+}
+
+main {
+    background-color: blue;
+    width: 1150px;
+}
+
+aside {
+    float: left;
+}
+
+.clear-fix:after {
+    content: '';
+    display:block;
+    clear:both;
+}
+
+a {
+    text-transform: uppercase;
+}
