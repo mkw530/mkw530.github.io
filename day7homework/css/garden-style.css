@@ -5,61 +5,31 @@ html {
     height: 100%;
 }
 
+body nav a {
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+}
+
 .small-box {
-width: 500px;;
-height: 241px;
-padding: 40px;
-margin: 0;
-text-align: center;
+    width: 500px;
+    height: 241px;
+    padding: 40px;
+    margin: 0;
+    text-align: center;
 }
 
 .small-box h2 {
-    color: white;
-    text-transform: uppercase;
-}
-
-.small-box h2{
-    padding-top: 40px;
-}
-
-#grow {
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../img/featured-image-3.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-right: 18px;
-    margin-bottom: 18px;
-}
-
-#plant {
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../img/featured-image-4.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    float: left;
-}
-
-#land {
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../img/featured-image-5.jpg);
-    background-repeat: no-repeat;
-    background-size:122%;
-    width: 668px;
-    height: 560px;
-    padding: 50px;
-    float: left;
-}
-
-
-#land h1 {
-    color: white;
-    text-transform: uppercase;
-}
-
-#land p {
-    color: white;
-    line-height: 2;
+    position: relative;
+    padding-top: 60px;
+    vertical-align: bottom;
 }
 
 .section-head {
+    color: white;
+    text-transform: uppercase;
     font-size: 45px;
+    text-align: left;
 }
 
 .we-do {
@@ -67,17 +37,45 @@ text-align: center;
     text-transform: capitalize;
     margin: 20px auto 20px auto;
     font-size: 20px;
+    text-align: left;
 }
 
+#grow {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/featured-image-3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 18px;
+    margin-bottom: 18px;
+}
 
-aside {
+#plant {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/featured-image-4.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
     float: left;
 }
 
-.clear-fix:after {
-    content: '';
-    display:block;
-    clear:both;
+#land {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/featured-image-5.jpg);
+    background-repeat: no-repeat;
+    background-size: 122%;
+    width: 668px;
+    height: 560px;
+    padding: 50px;
+    float: left;
+}
+
+#land h1 {
+    color: white;
+    text-transform: uppercase;
+    position: relative;
+    padding-top: 100px;
+}
+
+#land p {
+    color: white;
+    line-height: 2;
+    margin-bottom: 50px;
 }
 
 .about-products {
@@ -88,7 +86,6 @@ aside {
     border: 1px solid;
     text-align: center;
     padding: 15px;
-    
 }
 
 #about-us {
@@ -97,4 +94,73 @@ aside {
 
 #products {
     border-color: white;
+}
+
+#home {
+    background: #3e3b35;
+    padding-left:55px;
+    padding-right:55px;
+}
+
+aside {
+    float: left;
+}
+
+.clear-fix:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+#index-main {
+    margin: auto;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/1.jpg);
+    background-repeat: no-repeat;
+    width: 1366px;
+    height: 712px;
+    color: white;
+}
+
+#index-main p {
+    text-transform: uppercase;
+    position: relative;
+    padding: 190px 0 35px 600px;
+    letter-spacing: 1.5px;
+    font-weight: 200p
+}
+
+#index-main h1 {
+    position: relative;
+    padding: 0 0 35px 415px;
+}
+
+#index-main h3 {
+    padding: 0 0 60px 483px;
+    position: relative;
+    text-transform: lowercase;
+    font-family: "Times New Roman";
+    font-size: 25px;
+}
+
+#index-main h3 a {
+    color: white;
+}
+
+#index-main h3 a:hover {
+    color: #abc656;
+}
+
+#contact {
+    color: white;
+    background-color: #abc656;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-left: 628px;
+    text-align: center;
+    padding: 15px;
+}
+
+#contact:hover {
+    background-color: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
 }
