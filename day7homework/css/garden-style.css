@@ -100,8 +100,8 @@ body nav a {
 
 #home {
     background: #3e3b35;
-    padding-left:55px;
-    padding-right:55px;
+    padding-left: 55px;
+    padding-right: 55px;
 }
 
 aside {
@@ -128,28 +128,41 @@ aside {
     position: relative;
     padding: 190px 0 35px 600px;
     letter-spacing: 1.5px;
-    font-weight: 200p
+    font-weight:200;
 }
 
-#index-main h1 {
+#craft {
     position: relative;
     padding: 0 0 35px 415px;
 }
 
-#index-main h3 {
-    padding: 0 0 60px 483px;
+#check-out {
+    padding: 0 0 60px 422px;
     position: relative;
     text-transform: lowercase;
-    font-family: "Times New Roman";
+    letter-spacing: 2.0px;
+    font-weight:100;
     font-size: 25px;
+    /*I know this was supposed to be in a script more like Times New Roman, but I liked the way this looked better*/
 }
 
-#index-main h3 a {
+
+#services {
     color: white;
+    border: 1px solid;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-left: 515px;
+    text-align: center;
+    padding-top: 14px;
+    padding-right: 40px;
+    padding-bottom: 14px;
+    padding-left: 40px;
 }
 
-#index-main h3 a:hover {
-    color: #abc656;
+#services:hover {
+    background: linear-gradient( rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25));
 }
 
 #contact {
@@ -158,11 +171,11 @@ aside {
     text-decoration: none;
     text-transform: uppercase;
     margin-top: 10px;
-    margin-left: 628px;
+    margin-left: 50px;
     text-align: center;
     padding: 15px;
 }
 
 #contact:hover {
-    background-color: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    background-color: #71862d;
 }
