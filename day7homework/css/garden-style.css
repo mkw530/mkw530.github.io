@@ -87,9 +87,14 @@ aside {
     margin: 10px;
     border: 1px solid;
     text-align: center;
+    padding: 15px;
     
 }
 
 #about-us {
     background: #3e3b35;
+}
+
+#products {
+    border-color: white;
 }
