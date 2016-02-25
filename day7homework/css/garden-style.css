@@ -37,7 +37,7 @@ body nav a {
 .we-do {
     color: #abc656;
     text-transform: capitalize;
-    margin: 20px auto 20px auto;
+    margin: 20px 0px 20px 0px;
     font-size: 20px;
     text-align: left;
 }
@@ -46,8 +46,7 @@ body nav a {
     background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/featured-image-3.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    margin-right: 18px;
-    margin-bottom: 18px;
+    margin: 0px 18px 18px 0px;
 }
 
 #plant {
@@ -85,23 +84,33 @@ body nav a {
     text-decoration: none;
     text-transform: uppercase;
     margin: 10px;
-    border: 1px solid;
     text-align: center;
     padding: 15px;
 }
 
 #about-us {
     background: #3e3b35;
+    padding: 16px 14px 16px 14px;
+}
+
+#about-us:hover  {
+    background: #1c1a17;
+}
+#home:hover {
+    background: #1c1a17;
 }
 
 #products {
-    border-color: white;
+    border: 1px solid white;
+}
+
+#products:hover {
+    background: linear-gradient( rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25));
 }
 
 #home {
     background: #3e3b35;
-    padding-left: 55px;
-    padding-right: 55px;
+    padding: 16px 57px 16px 57px;
 }
 
 aside {
@@ -151,13 +160,9 @@ aside {
     border: 1px solid;
     text-decoration: none;
     text-transform: uppercase;
-    margin-top: 10px;
-    margin-left: 515px;
+    margin: 10px 0px 0px 515px;
     text-align: center;
-    padding-top: 14px;
-    padding-right: 40px;
-    padding-bottom: 14px;
-    padding-left: 40px;
+    padding: 14px 40px 14px 40px;
 }
 
 #services:hover {
@@ -169,8 +174,7 @@ aside {
     background-color: #abc656;
     text-decoration: none;
     text-transform: uppercase;
-    margin-top: 10px;
-    margin-left: 50px;
+    margin: 10px 0px 0px 50px;
     text-align: center;
     padding: 15px;
 }
