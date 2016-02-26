@@ -1,0 +1,56 @@
+/*font-family: 'Roboto Slab', serif; font-family: 'Open Sans', sans-serif;*/
+
+html {
+    margin: 0 auto;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    height: 20px;
+    /*because height is specified, there is not a column collapse, otherwise there would be for the nav and h1 since they are both floating*/
+    padding: 15px;
+}
+
+header h1 {
+    float: left;
+    text-transform: uppercase;
+}
+
+header nav {
+    float: right;
+    text-transform: capitalize;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #000;
+    margin-left: 15px;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+#hero {
+    color: #fff;
+    background: linear-gradient(to bottom, rgba(20, 20, 20, 0.9) 0%, rgba(0, 0, 0, 0.8) 100%), url('../img/wine-bg.jpg');
+    background-position: center;
+    height: 500px;
+    text-align: center;
+    padding-top: 250px;
+}
+
+#hero h2 {
+    margin-bottom: 50px;
+    font-size: 80px;
+}
+
+#producing {
+    background: linear-gradient(to bottom, rgba(20, 20, 20, 0.9) 0%, rgba(0, 0, 0, 0.8) 100%), url('../img/wine13.jpg');
+    background-position: center;
+    height: 500px;
+    text-align: center;
+}
