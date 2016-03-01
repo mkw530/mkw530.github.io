@@ -59,3 +59,7 @@ a {
 a:hover {
     color: rgb(72, 119, 239);
 }
+
+#midterm {
+    font-weight: bold;
+}
