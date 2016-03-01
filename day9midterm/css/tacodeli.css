@@ -47,20 +47,21 @@ header nav a:hover{
     background-position: center;
     background-repeat: no-repeat;
     width: 100%;
-    height: 500px;
+    height: 50em;
     margin-top: 2%;
     margin-bottom: 10%;
     text-align: center;
 }
 
 #hero h1{    
-    font-size: 3em;
+    font-size: 4em;
     font-weight: 400;
-    padding: 3em 3em 1em 3em;
+    padding: 3em 2em 0.5em 3em;
 }
 
 #hero p {
-    margin-bottom: 5em;
+    margin-bottom: 10em;
+    font-size: 1.5em;
     font-weight: 300;
     
 }
