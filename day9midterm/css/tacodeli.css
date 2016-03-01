@@ -17,6 +17,7 @@ header h3 {
     font-size: 3em;
     letter-spacing: 0.5em;
     padding-bottom: 1%;
+    padding-top: 0.2em;
     
 }
 
@@ -49,7 +50,7 @@ header nav a:hover{
     width: 100%;
     height: 50em;
     margin-top: 2%;
-    margin-bottom: 10%;
+    margin-bottom: 5em;
     text-align: center;
 }
 
@@ -79,6 +80,7 @@ header nav a:hover{
     background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4));
 }
 
+
 #skull {
     float: left;
     width: 30%;
@@ -98,7 +100,7 @@ header nav a:hover{
 
 .commitment h2 {
     text-align: center;
-    font-size: 1.75em;
+    font-size: 2em;
     font-weight: bold;
     padding-bottom: 1em;
     
@@ -107,10 +109,8 @@ header nav a:hover{
 .commitment p {
     margin-bottom: 1em;
     padding-top: 0.5em;
+    font-size: 1.25em;
 }
-
-
-
 
 
 
