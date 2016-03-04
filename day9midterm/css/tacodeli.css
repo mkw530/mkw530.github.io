@@ -104,13 +104,13 @@ header nav a:hover {
 }
 
 #menu {
-    padding-left: 5em
+    padding-left: 4em;
 }
 
 #menu img {
     width: 12em;
     height: 17em;
-    padding-left: 1em;
+    padding-left: 2em;
 }
 
 .tacos {
@@ -118,18 +118,50 @@ header nav a:hover {
     float: left;
     margin-left: 2em;
     margin-top: 5em;
+    align-content: center;
+    text-align: center;
 }
 
 #menu h2 {
     font-weight: bold;
     text-transform: capitalize;
-    text-align: center;
 }
 
-#menu p {
-    text-align: center;
+#menu h2, #menu p {
+    width: 100%;
+    padding-left: 2em;
 }
 
+#locations {
+    width: 100%;
+}
+
+#locations img {
+    width: 34%;
+    height: 21em;
+    float: left;
+    margin-left: 5em;
+    margin-top: 3em;
+    
+}
+
+#austin {
+    padding-left: 5em;
+}
+
+#locations div > h2 {
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+#locations p {
+    color: #737373;
+}
+
+#locations a {
+    text-decoration: none;
+    color: #333333;
+}
 
 
 
