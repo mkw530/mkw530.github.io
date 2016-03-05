@@ -156,63 +156,59 @@ header nav a:hover {
 #locations {
     width: 100%;
     float: left;
+    text-align: center;
 }
 
 #locations h1{
     width: 100%;
     margin-top: 6em;
     margin-bottom: 5%;
-    padding-left: 1em;
     text-align: center;
     text-transform: capitalize;
     font-size: 2em;
     font-weight: bold;
 }
 
-#locations .picture-frame {
-    width: 24.8125em;
-    height: 21.875em;
-    float: left;
-    text-align: center;  
-}
-
-
-#locations img {
+#location-pics {
     width: 100%;
 }
 
-#austin{
-    margin-left: 14em;
+#locations .picture-frame {
+    width: 24.8125em;
+    height: 21.875em;  
 }
 
 #texas {
-    margin-left: 4em;
+    margin-left: 3%;
     
 }
-.address div {
+.address {
+    width: 2%;
+}
+#address1, #address2 {
+    text-align:center;
+    width: 25%;
     float: left;
-    width: 10.8em;
-    margin-top: 3em;
-    margin-right: 0.5em;
+    margin-top: 2em;
+    
 }
 
-#gracy-farms {
-    padding-left: 9em;
+#address1 {
+    margin-left: 21%;
 }
 
-#dallas {
-    margin-right: 0;
+#address2 {
+margin-left: 6%;
 }
 
 .address h2 {
     text-transform: capitalize;
     font-weight: bold;
-    width: 10em;
 }
 
 .address p {
     color: #737373;
-    width: 10em;
+
 }
 
 .address p:nth-child(3) {
