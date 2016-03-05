@@ -1,5 +1,6 @@
 body {
     font-family: 'Open Sans', sans-serif;
+    margin: 0 auto;
 }
 
 header {
@@ -31,10 +32,10 @@ header nav a:hover {
     text-decoration: underline;
 }
 
-/*.container {
+.container {
     width: 100%;
     margin: 0 auto;
-}*/
+}
 
 #hero {
     color: #fff;
@@ -73,6 +74,10 @@ header nav a:hover {
     background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4));
 }
 
+.sub-container {
+    width: 78.125em;
+}
+
 #commitment-section {
     margin-top: 9em;
     margin-bottom: 25em;
@@ -88,8 +93,8 @@ header nav a:hover {
 
 #skull {
     float: left;
-    width: 29%;
-    margin: 3em 2em 0 3em;
+    width: 25%;
+    margin-left: 3em;
 }
 
 #skull img {
@@ -154,8 +159,10 @@ header nav a:hover {
 }
 
 #locations h1{
+    width: 100%;
     margin-top: 6em;
-    margin-bottom: 6%;
+    margin-bottom: 5%;
+    padding-left: 1em;
     text-align: center;
     text-transform: capitalize;
     font-size: 2em;
@@ -166,8 +173,7 @@ header nav a:hover {
     width: 24.8125em;
     height: 21.875em;
     float: left;
-    margin-right: 5em;
-    text-align: center;    
+    text-align: center;  
 }
 
 
@@ -175,12 +181,12 @@ header nav a:hover {
     width: 100%;
 }
 
-#austin-div {
-    margin-left: 25em;
+#austin{
+    margin-left: 14em;
 }
 
-#texas-div {
-    margin-right: 0;
+#texas {
+    margin-left: 4em;
     
 }
 .address div {
@@ -191,7 +197,7 @@ header nav a:hover {
 }
 
 #gracy-farms {
-    padding-left: 6em;
+    padding-left: 9em;
 }
 
 #dallas {
