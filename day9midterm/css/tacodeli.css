@@ -74,9 +74,9 @@ header nav a:hover {
     background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4));
 }
 
-.sub-container {
+/*.sub-container {
     width: 78.125em;
-}
+}*/
 
 #commitment-section {
     margin-top: 9em;
