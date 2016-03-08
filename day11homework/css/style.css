@@ -36,8 +36,16 @@ margin-bottom: 3%;
 
 @media (min-width: 768px) and (max-width: 991px) {
     
+    #search div {
+        width: 50%;
+    }
 }
 
 @media (max-width: 767px) {
+    
+    #search div {
+        float: none;
+        width: 100%;
+    }
     
 }
