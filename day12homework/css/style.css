@@ -38,7 +38,8 @@ h2 {
     margin-top: 15%;
 }
 
-h2, p {
+h2,
+p {
     width: auto;
     padding-left: 25%;
 }
@@ -73,4 +74,37 @@ h2, p {
     content: '';
     display: block;
     clear: both;
+}
+
+@media (max-width: 767px) {
+    #welcome,
+    #we-make {
+        text-align: left;
+        float: left;
+        font-size: 56%;
+        width: 15%;
+        height: 20em;
+        padding-top: 19%;
+        padding-left: 11%;
+        padding-right: 24%;
+    }
+    #titles {
+        clear: both;
+    }
+    #titles div {
+        width: 35%;
+        margin: 10% 7% 10% 6%;
+    }
+    h2,
+    p {
+        width: 100%;
+        padding-left: 13%;
+    }
+    .rectangle {
+        float: left;
+        width: 45%;
+    }
+    #black-section {
+        padding: 0;
+    }
 }
