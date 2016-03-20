@@ -115,6 +115,14 @@ header img {
     
 }
 
+.line {
+    border-top: 2.5px solid #24c5d3;
+    width: 20%;
+    margin-top: 1em;
+    margin-bottom: 2em;
+    margin-left: 32em;
+}
+
 .secondary p {
     color: #999999;
     font-size: 20px;
@@ -122,7 +130,8 @@ header img {
 }
 
 #about {
-    float: left;
+    width: auto;
+    vertical-align: baseline;
 }
 
 #about h3, #about p {
@@ -133,15 +142,16 @@ header img {
 
 #about h3 {
     color: #5c6873;
-    width: 35%;
     font-size: 1.5em;
+    padding-top: 3em;
     padding-left: 3.3em;
     margin-bottom: 1.5em;
 }
 
 #about p {
-    width: 35%;
     line-height: 2em;
+    margin-bottom: 2em;
+    padding-right: 3em;
 }
 
 #second-learn {
@@ -154,9 +164,13 @@ header img {
     margin-left: 15em;
 }
 
-#about div img {
-    width: 40%;
-    float: right;
+#about div, #creative div {
+    width: 50%;
+    float: left;
+}
+
+#about div img, #creative div img {
+    width: 100%;
 }
 
 #purchase-maxim {
@@ -169,20 +183,9 @@ header img {
     margin-left: 15em;
 }
 
-.line {
-    border-top: 2.5px solid #24c5d3;
-    width: 20%;
-    margin-top: 1em;
-    margin-bottom: 2em;
-    margin-left: 32em;
-}
-
-
-#creative {
-    float: right;
-}
-
 #creative h3, #creative p {
+    float: left;
+    clear: left;
     padding-left: 5em;
     font-family: 'Roboto Condensed', sans-serif;
     color: #999999;
@@ -190,20 +193,55 @@ header img {
 
 #creative h3 {
     color: #5c6873;
-    width: 35%;
     font-size: 1.5em;
+    padding-top: 3em;
     padding-left: 3.3em;
     margin-bottom: 1.5em;
 }
 
 #creative p {
-    width: 35%;
     line-height: 2em;
+    padding-right: 3em;
+    margin-bottom: 2em;
 }
 
 #creative div img {
-    width: 40%;
+    width: 100%;
     float: left;
+}
+
+.counter {
+    font-size: 64px;
+}
+
+.fa {
+    font-size: 72px;
+}
+.icons {
+float: left;
+text-align: center;
+width: 20%;
+padding-left: 3em;
+
+}
+
+.content-counter {
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    padding: 30px 0 50px 0;
+    background-color: #24c5d3;
+    background-image: url('../img/bg-texture.png')
+}
+
+#tbc {
+    
+    font-size: 40px;
+    font-weight: bold;
+    font-style: italic;
+    color: #999999;
+    margin-bottom: 1em;
+    
+    
 }
 
 .clear-fix:after {
