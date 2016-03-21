@@ -134,6 +134,7 @@ header img {
     vertical-align: baseline;
 }
 
+
 #about h3, #about p {
     padding-left: 5em;
     font-family: 'Roboto Condensed', sans-serif;
@@ -169,8 +170,15 @@ header img {
     float: left;
 }
 
-#about div img, #creative div img {
+.img {
+    display: block;
+    width: 640px;
+    height: 460px;
+}
+
+#about div img {
     width: 100%;
+    height: 100%;
 }
 
 #purchase-maxim {
@@ -181,6 +189,10 @@ header img {
     display: inline-block;
     width: 7em;
     margin-left: 15em;
+}
+
+#creative {
+    margin-bottom: 0.1em;
 }
 
 #creative h3, #creative p {
@@ -202,12 +214,13 @@ header img {
 #creative p {
     line-height: 2em;
     padding-right: 3em;
-    margin-bottom: 2em;
+    margin-bottom: 3em;
 }
 
 #creative div img {
     width: 100%;
     float: left;
+ 
 }
 
 .counter {
