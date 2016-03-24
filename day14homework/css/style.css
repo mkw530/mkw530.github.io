@@ -1,0 +1,15 @@
+aside {
+    font-weight: bold;
+}
+
+#top-stories {
+    border-bottom: #000 1px solid;
+    font-size: 20px;
+    padding-bottom: 0.5em;
+    margin-bottom: 1em;
+}
+
+.aside-link {
+    margin-bottom: 1em;
+    font-size: 15px;
+}
