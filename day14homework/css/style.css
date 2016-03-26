@@ -1,3 +1,15 @@
+#tech-paragraph {
+    margin-bottom: 1em;
+    font-size: 16px;
+}
+
+#technology {
+    color: #fff;
+    background: #4c4c4c;
+    padding: 0.5em;
+}
+
+
 aside {
     font-weight: bold;
 }
