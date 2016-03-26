@@ -9,7 +9,6 @@
     padding: 0.5em;
 }
 
-
 aside {
     font-weight: bold;
 }
@@ -28,14 +27,17 @@ aside {
 
 .aside-link a {
     color: #000;
-    
 }
 
 .footer {
     background: #4c4c4c;
     color: #fff;
     margin-top: 2em;
-    
+    padding: 1em 0 1em 3em;
+}
+
+h3 {
+    font-size: 20px;
 }
 
 .footer a {
@@ -44,16 +46,20 @@ aside {
 }
 
 .line {
-    width: 6em;
-    border-bottom: 1px solid #fff;
+    width: 7em;
+    border-bottom: 0.5px solid #fff;
+    margin: 0.5em 0 0.5em 0;
 }
 
 li {
     list-style-type: none;
-    
-    
+    font-weight: 200;
 }
 
 i {
     padding-left: 0.5em;
+}
+
+#twitter {
+    padding-left: 2em;
 }
