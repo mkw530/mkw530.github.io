@@ -30,3 +30,30 @@ aside {
     color: #000;
     
 }
+
+.footer {
+    background: #4c4c4c;
+    color: #fff;
+    margin-top: 2em;
+    
+}
+
+.footer a {
+    color: #fff;
+    padding-bottom: 1em;
+}
+
+.line {
+    width: 6em;
+    border-bottom: 1px solid #fff;
+}
+
+li {
+    list-style-type: none;
+    
+    
+}
+
+i {
+    padding-left: 0.5em;
+}
