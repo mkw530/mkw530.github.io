@@ -25,3 +25,8 @@ aside {
     margin-bottom: 1em;
     font-size: 15px;
 }
+
+.aside-link a {
+    color: #000;
+    
+}
