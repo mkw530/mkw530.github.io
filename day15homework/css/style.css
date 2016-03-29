@@ -31,3 +31,18 @@ nav a {
     font-size: 20px;
     line-height: 1.5em;
 }
+
+#established {
+    text-align: center;
+    height: 50%;
+}
+
+#established h2 {
+    font-family: "Georgia", serif;
+    font-style: italic;
+    font-size: 25px;
+}
+
+#signature {
+    width: 25%;
+}
