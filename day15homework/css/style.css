@@ -7,8 +7,15 @@ nav a {
     color: #fff;
 }
 
+.navbar-brand {
+    margin-right: 5em;
+
+}
+
 #hero {
     background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/wine-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
     color: #fff;
     text-align: center;
 
@@ -16,4 +23,11 @@ nav a {
 
 .fade-1-4 {
     opacity: 0.75;
+}
+
+#hero h2{
+    font-family: "Georgia", serif;
+    font-style: italic;
+    font-size: 20px;
+    line-height: 1.5em;
 }
