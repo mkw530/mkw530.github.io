@@ -33,9 +33,20 @@ nav a {
     line-height: 1.5em;
 }
 
-#established {
+
+#established div {
     text-align: center;
-    height: 5em;
+    height: 600px;
+
+}
+
+#established h3 {
+    color: #949494;
+     font-family: "Georgia", serif;
+    font-style: italic;
+    font-size: 16px;
+    letter-spacing: 1.5px;
+    padding-top: 9em;
 }
 
 #established h2 {
@@ -46,6 +57,12 @@ nav a {
 
 #signature {
     width: 25%;
+    
+}
+
+#sweep {
+    overflow: hidden;
+   background-position: 50px 60px 60px;
 }
 
 #hero2 {
