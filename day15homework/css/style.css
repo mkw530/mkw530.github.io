@@ -1,5 +1,8 @@
+body a {
+    cursor: pointer;
+}
+
 navbar-transparent {
-    
     color: #fff;
 }
 
@@ -17,14 +20,13 @@ nav a {
     background-size: cover;
     color: #fff;
     text-align: center;
-
 }
 
 .fade-1-4 {
     opacity: 0.75;
 }
 
-#hero h2{
+#hero h2 {
     font-family: "Georgia", serif;
     font-style: italic;
     font-size: 20px;
@@ -68,11 +70,41 @@ nav a {
 
 #menu {
     text-align: center;
+    padding-left: 1em;
 }
 
-#menu img {
-    width: 50%;
+.wine-img {
+    width: 70%;
+    margin-left: 3em;
 }
 
+#menu h2,
+#menu p,
+#menu a {
+    text-align: center;
+    padding-right: 3em;
+}
 
+#menu h2 {
+    border-top: 1px solid #cccccc;
+    padding: 1em 0 0.5em 1.5em;
+    margin-top: 0;
+    font-family: "Georgia", serif;
+    font-style: italic;
+    font-size: 25px;
+}
 
+#menu p {
+    font-family: "Georgia", serif;
+    font-style: italic;
+    margin-bottom: 2em;
+}
+
+#menu a {
+    background: #91a158;
+    color: #fff;
+    text-decoration: none;
+    letter-spacing: 1px;
+    padding: 1em 4em 1em 4em;
+    font-size: 12px;
+}
