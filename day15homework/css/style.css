@@ -9,7 +9,6 @@ nav a {
 
 .navbar-brand {
     margin-right: 5em;
-
 }
 
 #hero {
@@ -34,7 +33,7 @@ nav a {
 
 #established {
     text-align: center;
-    height: 50%;
+    height: 5em;
 }
 
 #established h2 {
@@ -46,3 +45,14 @@ nav a {
 #signature {
     width: 25%;
 }
+
+#hero2 {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/wine13.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    height: 30em;
+    
+}
+
+
