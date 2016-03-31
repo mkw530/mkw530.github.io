@@ -2,8 +2,9 @@ body a {
     cursor: pointer;
 }
 
-navbar-transparent {
+.navbar {
     color: #fff;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 nav a {
@@ -12,6 +13,11 @@ nav a {
 
 .navbar-brand {
     margin-right: 5em;
+}
+
+.border-anchor {
+    border-left: 1px solid rgba(255, 255, 255, 0.2);
+    border-right: 1px solid rgba(255, 255, 255, 0.2)
 }
 
 #hero {
@@ -33,16 +39,15 @@ nav a {
     line-height: 1.5em;
 }
 
-
 #established div {
     text-align: center;
     height: 600px;
-
+    position: relative;
 }
 
 #established h3 {
     color: #949494;
-     font-family: "Georgia", serif;
+    font-family: "Georgia", serif;
     font-style: italic;
     font-size: 16px;
     letter-spacing: 1.5px;
@@ -57,12 +62,11 @@ nav a {
 
 #signature {
     width: 25%;
-    
 }
 
 #sweep {
     overflow: hidden;
-   background-position: 50px 60px 60px;
+  position: absolute;
 }
 
 #hero2 {
