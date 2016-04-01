@@ -39,10 +39,9 @@ nav a {
     line-height: 1.5em;
 }
 
-#established div {
+#established{
     text-align: center;
-    height: 600px;
-    position: relative;
+ 
 }
 
 #established h3 {
@@ -51,13 +50,18 @@ nav a {
     font-style: italic;
     font-size: 16px;
     letter-spacing: 1.5px;
-    padding-top: 9em;
+    padding-top: 14em;
 }
 
 #established h2 {
     font-family: "Georgia", serif;
     font-style: italic;
     font-size: 25px;
+    margin-left: 1em
+}
+
+#established p {
+    margin-left: 5em;
 }
 
 #signature {
@@ -65,8 +69,11 @@ nav a {
 }
 
 #sweep {
-    overflow: hidden;
-    position: absolute;
+    background: url('../img/wine16.jpg');
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    padding-bottom: 54em;
 }
 
 #hero2 {
@@ -74,14 +81,13 @@ nav a {
     background-size: cover;
     background-repeat: no-repeat;
     color: #fff;
-    height: 50em;
-    padding: 15%
+    padding: 20em 5em;
 }
 
 #hero2 h2 {
     font-family: "Georgia", serif;
     font-style: italic;
-    font-size: 35px;
+    font-size: 30px;
 }
 
 #hero2 p {
@@ -96,14 +102,14 @@ nav a {
 
 .wine-img {
     width: 70%;
-    margin-left: 3em;
+    margin-left: 5em;
 }
 
 #menu h2,
 #menu p,
 #menu a {
     text-align: center;
-    padding-right: 3em;
+    margin-left: 1.5em;
 }
 
 #menu h2 {
@@ -118,6 +124,7 @@ nav a {
 #menu p {
     font-family: "Georgia", serif;
     font-style: italic;
+    margin-left: 4em;
     margin-bottom: 2em;
 }
 
