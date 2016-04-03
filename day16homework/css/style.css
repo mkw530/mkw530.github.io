@@ -1,6 +1,5 @@
 body {
     background: #f5f5f5;
-    margin: 0 auto;
 }
 
 #row-1 {
@@ -9,7 +8,29 @@ body {
 
 .bg {
     background: #ffff4d;
-    padding: 10em 10em 4em 6em;
+    /*padding: 4.25em 10em 4em 6em;*/
+}
+
+.grey-bg {
+    margin-left: 2em;
+}
+
+.quad {
+    width: 270px;
+    height: 278px;
+}
+
+.quad img{
+    width: 100%;
+    height: 100%;
+}
+
+.notebook {
+    width: 110%;
+}
+
+.column1 {
+    margin-left: 1em;
 }
 
 #large-bulb,
@@ -47,18 +68,19 @@ p {
     margin-top: 2em;
 }
 
-.text-field {
+.text-field{
     background: #eeeeee;
-    padding: 3em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+
+.text-field p {
+    width: 80%;
 }
 
 .fa-cloud {
     font-size: 30px;
-}
-
-.quad {
-    width: 290px;
-    height: 278px;
 }
 
 .quad h2 {
@@ -72,7 +94,7 @@ p {
 
 .grey-bg {
     background: #eeeeee;
-    padding: 10em 10em 4em 6em
+    padding: /*10em 10em 4em 6em*/
 }
 
 #contact {
