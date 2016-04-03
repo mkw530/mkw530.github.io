@@ -3,17 +3,24 @@ body {
 }
 
 #row-1 {
-    margin-bottom: 2em;
+    margin-bottom: 1.6em;
 }
 
 .bg {
     background: #ffff4d;
-    /*padding: 4.25em 10em 4em 6em;*/
-    padding: 10% 0 13.9% 5%;
+    padding: 10% 1% 13.9% 5%;
+    width: 565px;
+    height: 585px;
 }
 
-.grey-bg {
-    margin-left: 2em;
+.column1 {
+    margin-left: 0.6em;
+}
+
+.column2 {
+    margin-left: 0;
+    padding-left: 0;
+    margin-right: 0.1em;
 }
 
 .quad {
@@ -30,9 +37,6 @@ body {
     width: 110%;
 }
 
-.column1 {
-    margin-left: 1em;
-}
 
 #large-bulb,
 #large-flask {
