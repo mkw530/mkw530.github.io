@@ -97,6 +97,7 @@ p {
 
 .grey-bg {
     background: #eeeeee;
+    margin-top: 2em;
 }
 
 #row-2 {
@@ -129,6 +130,34 @@ p {
     
     .quad {
         width: 100%;
+        height: 100%;
     }
+    
+    .column1 {
+        margin-left: 0;
+    }
+    
+    .column2 {
+        margin-right: 0;
+    }
+    
+    img {
+        margin: auto;
+        padding: 0;
+    }
+    
+    .text-field {
+        padding-top: 80px;
+        padding-bottom: 81px;
+    }
+    
+    .responsive {
+        padding-bottom: 79px;
+    }
+    
+    .notebook {
+        height: 300px;
+    }
+    
     
 }
