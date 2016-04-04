@@ -124,6 +124,10 @@ p {
     body {
         padding: 0;
     }    
+    
+    .yellow-bg {
+        margin-bottom: 2em;
+    }
      .bg {
         width: 100%;
     }
@@ -158,6 +162,7 @@ p {
     .notebook {
         height: 300px;
     }
+    
     
     
 }
