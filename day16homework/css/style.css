@@ -97,7 +97,6 @@ p {
 
 .grey-bg {
     background: #eeeeee;
-    margin-top: 2em;
 }
 
 #row-2 {
@@ -164,3 +163,13 @@ p {
     }
     
 }
+
+@media (max-width: 667px)
+    
+{
+    .text-field {
+        margin-bottom: 1em;
+    }
+    
+}
+
