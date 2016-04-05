@@ -1,0 +1,30 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    color: #fff;
+}
+
+a hover {
+    cursor: pointer;
+}
+
+.navbar-brand {
+    margin-right: 210px;
+}
+
+
+#hero {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/hero.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    padding: 20% 20% 20% 40%;
+    text-align: center;
+    margin-bottom: 3%;
+}
+
+#about-us img {
+    width: 100%;
+}
