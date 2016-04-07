@@ -19,14 +19,14 @@ body {
     padding-left: 30%;
 }
 
-.navbar, .fa-bars {
+.navbar,
+.fa-bars {
     font-size: 20px;
 }
 
 a hover {
     cursor: pointer;
 }
-
 
 #hero {
     background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/hero.jpg');
@@ -52,6 +52,7 @@ h2 {
 h3 {
     font-size: 30px;
 }
+
 #about-us {
     padding-bottom: 8%;
 }
@@ -155,7 +156,7 @@ iframe {
 }
 
 #social-media a {
-    color:  #737373;
+    color: #737373;
     padding: 0.5%;
 }
 
@@ -163,11 +164,65 @@ iframe {
     color: #262626;
 }
 
-/*tablet*/ @media (max-width: 978px) {
-    
+
+/*tablet*/
+
+@media (max-width: 978px) {
+    .navbar {
+        font-size: 10px;
+    }
+    .navbar-brand {
+        font-size: 25px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    h3 {
+        font-size: 16px;
+    }
+    #hero {
+        padding: 20% 20% 20% 31%;
+        text-align: center;
+        margin-bottom: 4%;
+    }
+    #hero p {
+        padding-left: 10%;
+        text-align: left;
+    }
+    #about-us h2 {
+        padding-top: 0%;
+    }
+    .trip-pics h2 {
+        margin-bottom: 1%;
+    }
+    .button {
+        font-size: 10px;
+    }
+    #social-media {
+        font-size: 20px;
+    }
 }
 
-/*cell-phone*/ @media (max-width: 667px) {
-    
-}
 
+/*cell-phone*/
+
+@media (max-width: 667px) {
+    .has-dropdown {
+        background-color: #737373;
+    }
+    #hero {
+        padding: 20% 20% 20% 28%;
+        text-align: center;
+        margin-bottom: 4%;
+        background-position: 20%;
+    }
+    #hero p {
+        font-size: 12px;
+    }
+    #sunset-board {
+        margin-left: 25%;
+    }
+    #about-us-text {
+        text-align: center;
+    }
+}
