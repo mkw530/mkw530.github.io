@@ -4,6 +4,11 @@ body {
 
 .navbar-brand {
     font-size: 28px;
+    margin-right: 210px;
+}
+
+.navbar {
+    color: #fff;
 }
 
 .navbar a {
@@ -14,12 +19,12 @@ body {
     padding-left: 30%;
 }
 
-a hover {
-    cursor: pointer;
+.navbar, .fa-bars {
+    font-size: 20px;
 }
 
-.navbar-brand {
-    margin-right: 210px;
+a hover {
+    cursor: pointer;
 }
 
 
