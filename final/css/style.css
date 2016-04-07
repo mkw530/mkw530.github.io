@@ -207,16 +207,13 @@ iframe {
 /*cell-phone*/
 
 @media (max-width: 667px) {
-
     .fa-bars {
         color: #fff;
     }
-    
     li a {
         text-align: right;
         color: #4d4d4d;
     }
-    
     #hero {
         padding: 20% 20% 20% 28%;
         text-align: center;
