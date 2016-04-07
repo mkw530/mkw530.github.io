@@ -8,7 +8,7 @@ body {
 
 .navbar {
     color: #cccccc;
-    border: 1px solid #cccccc;
+    border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .navbar a {
@@ -207,9 +207,16 @@ iframe {
 /*cell-phone*/
 
 @media (max-width: 667px) {
-    .has-dropdown {
-        background-color: #737373;
+
+    .fa-bars {
+        color: #fff;
     }
+    
+    li a {
+        text-align: right;
+        color: #4d4d4d;
+    }
+    
     #hero {
         padding: 20% 20% 20% 28%;
         text-align: center;
