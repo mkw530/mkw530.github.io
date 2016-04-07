@@ -1,6 +1,5 @@
 body {
     font-family: 'Open Sans', sans-serif;
- 
 }
 
 .navbar-brand {
@@ -11,6 +10,10 @@ body {
     color: #fff;
 }
 
+.navbar-nav {
+    padding-left: 30%;
+}
+
 a hover {
     cursor: pointer;
 }
@@ -18,6 +21,7 @@ a hover {
 .navbar-brand {
     margin-right: 210px;
 }
+
 
 #hero {
     background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/hero.jpg');
@@ -36,12 +40,19 @@ a hover {
     font-size: 19px;
 }
 
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 30px;
+}
 #about-us {
     padding-bottom: 8%;
 }
 
 #about-us h2 {
-    padding-top: 15%;
+    padding-top: 10%;
 }
 
 #contact-info {
@@ -51,7 +62,7 @@ a hover {
 }
 
 #contact-info a {
-    color: #000;   
+    color: #000;
 }
 
 #contact-info a:hover {
@@ -69,13 +80,21 @@ a hover {
 }
 
 .services {
-    margin-bottom: 10%;
+    text-align: center;
+}
+
+.services p {
+    margin-top: 1%;
 }
 
 .trip-pics {
     margin-top: 5%;
     font-weight: 300;
     text-align: center;
+}
+
+.trip-pics h2 {
+    margin-bottom: 5%;
 }
 
 .caption {
@@ -87,10 +106,6 @@ a hover {
     text-align: right;
     font-weight: bolder;
     margin-bottom: 10%;
-}
-
-.services {
-    text-align: center;
 }
 
 .footer {
@@ -106,7 +121,7 @@ a hover {
     margin-bottom: 10%;
 }
 
-.footer a {
+.button {
     border: 1px solid #fff;
     color: #fff;
     text-decoration: none;
@@ -115,9 +130,28 @@ a hover {
     margin-right: 10%;
 }
 
-#contact-anchor-bottom {
-    padding: 2% 5%;
+.button:hover {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    text-decoration: none;
 }
 
+#contact-anchor-bottom {
+    padding: 2% 5%;
+    margin-left: 10%;
+}
+
+#social-media {
+    margin-top: 10%;
+    font-size: 50px;
+}
+
+#social-media a {
+    color:  #737373;
+    padding: 0.5%;
+}
+
+.social-media:hover {
+    color: #262626;
+}
 
 
