@@ -3,12 +3,12 @@ body {
 }
 
 .navbar-brand {
-    font-size: 28px;
-    margin-right: 210px;
+    font-size: 32px;
 }
 
 .navbar {
-    color: #fff;
+    color: #cccccc;
+    border: 1px solid #cccccc;
 }
 
 .navbar a {
@@ -82,6 +82,10 @@ h3 {
 
 #e-mail {
     text-decoration: underline;
+}
+
+iframe {
+    pointer-events: none;
 }
 
 .services {
@@ -159,4 +163,11 @@ h3 {
     color: #262626;
 }
 
+/*tablet*/ @media (max-width: 978px) {
+    
+}
+
+/*cell-phone*/ @media (max-width: 667px) {
+    
+}
 
