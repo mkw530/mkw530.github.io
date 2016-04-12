@@ -1,0 +1,20 @@
+
+.body {
+    background: url('../img/IMG_9009.JPG');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 35% 10% 30% 75%;
+}
+
+h1 {
+    font-size: 75px;
+    width: 50%;
+}
+
+@media (max-width: 667px) {
+    
+    h1 {
+        font-size: 35px;
+    }
+    
+}
